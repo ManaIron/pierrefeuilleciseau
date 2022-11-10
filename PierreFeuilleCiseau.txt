@@ -11,26 +11,26 @@ PierreFeuilleCiseau.txt
 
 #Si le playerOne() choisi entre 0, 1 ou 2 
 
-    #Si playerOne == 0
-        #Si playerTwo == 0
+    #Si playerOne prend 0
+        #Si playerTwo prend 0
             #Alors on affiche égalité
-        #Si playerTwo == 1
+        #Si playerTwo prend 1
             #Alors on affiche victoire pour le playerTwo
-        #Sinon playerTwo == 2
+        #Sinon playerTwo prend 2
             #Alors on affiche victoire pour le playerOne
-    #Si playerOne == 1
-        #Si playerTwo == 0
+    #Si playerOne prend 1
+        #Si playerTwo prend 0
             #Alors on affiche victoire pour le playerOne
-        #Si playerTwo == 1
+        #Si playerTwo prend 1
             #Alors on affiche égalité
-        #Sinon playerTwo == 2
+        #Sinon playerTwo prend 2
             #Alors on affiche victoire pour le playerTwo
-    #Si playerOne == 2
-        #Si playerTwo == 0
+    #Si playerOne prend 2
+        #Si playerTwo prend 0
             #Alors on affiche victoire pour le playerTwo
-        #Si playerTwo == 1
+        #Si playerTwo prend 1
             #Alors on affiche victoire pour le playerOne
-        #Sinon playerTwo == 2
+        #Sinon playerTwo prend 2
             #Alors on affiche égalité
 
 #Sinon demander au playerOne() de choisir ce qu'il veut jouer entre 0 et 2 inclus
