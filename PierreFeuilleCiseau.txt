@@ -1,0 +1,43 @@
+PierreFeuilleCiseau.txt
+#DEBUT
+
+#on admet une fonction random() qui renvoi un chiffre entre 0 et 2 inclut
+#on admet une fonction input() qui récupère une entrée par un joueur 
+
+#on définit la fonction pierreFeuilleCiseau() qui simule une partie de pierre feuille ciseau et nous renvoit le gagnant
+#on définit la valeur 0 à pierre, 1 à papier et 2 à ciseau
+#on initialise playerOne avec input()
+#on initialise playerTwo avec random()
+
+#Si le playerOne() choisi entre 0, 1 ou 2 
+
+    #Si playerOne == 0
+        #Si playerTwo == 0
+            #Alors on affiche égalité
+        #Si playerTwo == 1
+            #Alors on affiche victoire pour le playerTwo
+        #Sinon playerTwo == 2
+            #Alors on affiche victoire pour le playerOne
+    #Si playerOne == 1
+        #Si playerTwo == 0
+            #Alors on affiche victoire pour le playerOne
+        #Si playerTwo == 1
+            #Alors on affiche égalité
+        #Sinon playerTwo == 2
+            #Alors on affiche victoire pour le playerTwo
+    #Si playerOne == 2
+        #Si playerTwo == 0
+            #Alors on affiche victoire pour le playerTwo
+        #Si playerTwo == 1
+            #Alors on affiche victoire pour le playerOne
+        #Sinon playerTwo == 2
+            #Alors on affiche égalité
+
+#Sinon demander au playerOne() de choisir ce qu'il veut jouer
+
+
+#Executer la fonction pierreFeuilleCiseau()
+
+
+
+
