@@ -33,7 +33,7 @@ PierreFeuilleCiseau.txt
         #Sinon playerTwo == 2
             #Alors on affiche égalité
 
-#Sinon demander au playerOne() de choisir ce qu'il veut jouer
+#Sinon demander au playerOne() de choisir ce qu'il veut jouer entre 0 et 2 inclus
 
 
 #Executer la fonction pierreFeuilleCiseau()
