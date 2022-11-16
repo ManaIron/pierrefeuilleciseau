@@ -1,0 +1,21 @@
+#DEBUT
+
+#On initialise la fonction morpion
+#on initialise Joueur1 avec une fonction input() qui récupère une entrée par un joueur entre 1 à 9 inclu
+#on initialise joueur2 avec random
+#on initialise une valeur qui compte les tours
+#Definir une fonction qui affiche le tableau du morpion
+##Definir chaque emplacement du tableau par des chiffres
+#[1,2,3]
+#[4,5,6]
+#[7,8,9]
+#Definir une fonction qui prend le chiffre choisis par le joueur1 et la tranforme en X
+#Definir une fonction qui prend le chiffre choisis par le joueur2 et la tranforme en O
+#Si les tours ne sont pas égale a 9
+#Alors le joueur1 choisi un chiffre
+#Si un joueur prend un chiffre deja pris alors enfin un message et demander au joueur de choisir a nouveau
+#Si joueur 1 prend les valeurs; [1,2,3], [4,5,6], [7,8,9], [1,4,7], [2,5,8], [3,6,9], [1,5,9] ou [3,5,7] alors il gagne et on affiche un message
+#Si joueur 2 prend les valeurs; [1,2,3], [4,5,6], [7,8,9], [1,4,7], [2,5,8], [3,6,9], [1,5,9] ou [3,5,7] alors il gagne et on affiche un message
+#sinon après 9 tours on affiche Égalité
+
+#FIN
