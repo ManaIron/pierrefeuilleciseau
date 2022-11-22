@@ -1,0 +1,39 @@
+import tkinter 
+
+compteur = 0
+
+def onClick(event):
+    global compteur, monLabel
+    compteur = compteur + 1
+    monLabel.config(text='Compteur : ' + str(compteur))
+    
+maFenetre = tkinter.Tk()
+
+monBouton = tkinter.Button(maFenetre, text="Clique ici !", width=40)
+monBouton.pack()
+monBouton.bind("<ButtonRelease-1>", onClick)
+
+monLabel = tkinter.Label(maFenetre, text='Compteur: 0')
+monLabel.pack()
+
+_____
+from tkinter import * 
+fenetre = Tk()
+
+def onClick(event):
+    global monLabel
+    monLabel.config(text='X')
+
+for ligne in range(3):
+    for colonne in range(3):
+        
+        Button(fenetre, text='7', borderwidth=1).grid(row=1, column=1)
+        Button(fenetre, text='8', borderwidth=1).grid(row=1, column=2)
+        Button(fenetre, text='9', borderwidth=1).grid(row=1, column=3)
+        Button(fenetre, text='4', borderwidth=1).grid(row=2, column=1)
+        Button(fenetre, text='5', borderwidth=1).grid(row=2, column=2)
+        Button(fenetre, text='6', borderwidth=1).grid(row=2, column=3)
+        Button(fenetre, text='1', borderwidth=1).grid(row=3, column=1)
+        Button(fenetre, text='2', borderwidth=1).grid(row=3, column=2)
+        Button(fenetre, text='3', borderwidth=1).grid(row=3, column=3)
+fenetre.mainloop()
